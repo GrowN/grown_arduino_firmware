@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "gdb",
+            "request": "launch",
+            "cwd": "${workspaceRoot}",
+            "name": "PlatformIO Debugger",
+            "target": "/Users/konstantinzolotarev/Coding/GrowN/grown_arduino_firmware/.pioenvs/micro/firmware.elf",
+            "gdbpath": "/Users/konstantinzolotarev/.platformio/penv/bin/piodebuggdb",
+            "autorun": [ "source .pioinit" ]
+        }
+    ]
+}
